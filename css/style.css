@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "netflix regular";
+    src: url("/fontes/netflixsans-regular.ttf");
+}
+@font-face {
+    font-family: "netflix black";
+    src: url("/fontes/netflixsans-black.ttf");
+}
+@font-face {
+    font-family: "netflix medium";
+    src: url("/fontes/netflixsans-medium.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+    font-family: "netflix regular";
+    font-size: 16px;
+}
+#container{
+    height: 100%;
+}
+#cima{
+    background: #000 url("/imagens/fundo-netflix-escuro.jpg") fixed;
+    padding-top: 200px ;
+    padding-bottom: 150px;
+    text-align: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#caixa-titulo{
+    margin: 40px;
+    color: #fff;
+}
+#cima h1{
+    font-family: "netflix black";
+    letter-spacing: -0.05px;
+    font-size: 42px;
+}
+#cima p{
+    font-size: 24px;
+    font-weight: 400;
+}
+#cima h3{
+    font-size: 20px;
+}
+.caixa{
+    background-color: #000;
+    color:#fff;
+}
+button{
+    font-size: 24px;
+    background-color:#E50914;
+    color:#fff;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: "netflix medium";
+    border: none;
+    cursor: pointer;
+}
+input{
+    font-size: 16px;
+    padding:12px 30px;
+    border-radius: 5px;
+}
