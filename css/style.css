@@ -25,7 +25,6 @@ body{
 }
 #cima{
     background: #000 url("/imagens/fundo-netflix-escuro.jpg") fixed;
-    padding-top: 200px ;
     padding-bottom: 150px;
     text-align: center;
 	background-size: cover;
@@ -52,8 +51,8 @@ body{
     background-color: #000;
     color:#fff;
 }
-button{
-    font-size: 24px;
+#forms button{
+    font-size: 20px;
     background-color:#E50914;
     color:#fff;
     padding: 8px 25px;
@@ -62,8 +61,51 @@ button{
     border: none;
     cursor: pointer;
 }
-input{
+#forms input{
     font-size: 16px;
     padding:12px 30px;
     border-radius: 5px;
+    margin-bottom: 8px;
+    border:none;
+    background-color: #0000009d;
+    color:#fff;
+    outline:2px solid #C11119;
+}
+#forms{
+    text-align: center;
+    display: inline-block;
+}
+ button:focus, input:focus{
+    outline: none;
+}
+#forms input:focus{
+    outline: 2px solid rgb(4, 244, 4);
+}
+#forms button:hover{
+    background-color: #C11119;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s
+}
+nav{
+   padding: 20px 0 200px 0;
+}
+img{
+    float: left;
+}
+div#navbar-direita{
+    float: right;
+}
+div#navbar-direita button{
+    background-color: #E50914;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 3px;
+    color:#fff;
+    font-size: 13px;
+    margin-left: 15px;
+    font-family: "netflix medium";
+    cursor: pointer;
 }
