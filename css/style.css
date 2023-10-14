@@ -31,6 +31,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+    -ms-background-size:cover;
 }
 #caixa-titulo{
     color: #fff;
@@ -60,6 +61,7 @@ body{
     font-family: "netflix medium";
     border: none;
     cursor: pointer;
+    margin-left: 5px;
 }
 #forms input{
     font-size: 16px;
@@ -108,4 +110,15 @@ div#navbar-direita button{
     margin-left: 15px;
     font-family: "netflix medium";
     cursor: pointer;
+}
+div#navbar-direita input{
+    background-color: #00000056;
+    color:#fff;
+    border: none;
+    text-align: center;
+    outline: 1px solid rgba(255, 255, 255, 0.582);
+    width: 50%;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 5px 0;
 }
