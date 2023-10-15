@@ -207,3 +207,6 @@ div#div-select{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+div.caixa-perguntas ul#lista li{
+    background-color: #414141;
+}
