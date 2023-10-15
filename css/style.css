@@ -122,3 +122,30 @@ div#navbar-direita input{
     font-size: 13px;
     padding: 5px 0;
 }
+.caixa{
+    margin-bottom: 8px;
+    padding: 50px 0;
+}
+.caixa-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+    margin-top: 20px;
+}
+.texto-grid{
+    align-self: center;
+    width: 600px;
+}
+.texto-grid h1{
+    font-size: 48px;
+    font-family:"netflix black";
+}
+.texto-grid p{
+    font-size: 22px;
+}
+.esquerda{
+    margin-left:auto ;
+}
+.direita{
+    margin-right: auto;
+}
