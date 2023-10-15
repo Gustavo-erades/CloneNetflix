@@ -81,9 +81,9 @@ body{
     outline: none;
 }
 #forms input:focus{
-    outline: 2px solid rgb(4, 244, 4);
+    outline: 2px solid #26985E;
 }
-#forms button:hover{
+#forms button:hover, button#entrar:hover{
     background-color: #C11119;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -148,4 +148,18 @@ div#navbar-direita input{
 }
 .direita{
     margin-right: auto;
+}
+h1#perguntas{
+    font-family: "netflix black";
+    font-size: 48px;
+}
+.caixa-perguntas{
+    text-align: center;
+}
+p#fim-pag{
+    font-size: 20px;
+}
+footer.caixa{
+    height: 10vh;
+    margin-bottom: 0;
 }
