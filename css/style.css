@@ -24,7 +24,7 @@ body{
     height: 100%;
 }
 #cima{
-    background: #000 url("../imagens/fundo-netflix-escuro.jpg") fixed;
+    background: url("../imagens/fundo-netflix.jpg") fixed;
     padding-bottom: 150px;
     text-align: center;
 	background-size: cover;
@@ -32,6 +32,7 @@ body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
     -ms-background-size:cover;
+    text-shadow: 0 0 0 0.1;
 }
 #caixa-titulo{
     color: #fff;
@@ -53,7 +54,7 @@ body{
     color:#fff;
 }
 #forms button{
-    font-size: 20px;
+    font-size: 24px;
     background-color:#E50914;
     color:#fff;
     padding: 8px 25px;
@@ -77,7 +78,7 @@ body{
     text-align: center;
     display: inline-block;
 }
- button:focus, input:focus{
+button:focus, input:focus{
     outline: none;
 }
 #forms input:focus{
@@ -159,7 +160,50 @@ h1#perguntas{
 p#fim-pag{
     font-size: 20px;
 }
-footer.caixa{
-    height: 10vh;
+footer{
     margin-bottom: 0;
+    color:#9a9a9a;
+    display: inline-block;
+}
+footer a{
+    text-transform: capitalize;
+    color:#9a9a9a;
+}
+footer ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    text-align: justify;
+}
+footer ul li.items-direita{
+    margin-left: 30px;
+}
+footer div.footer-div{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+div.rodape{
+    margin: 0;
+}
+div.rodape div.footer-div a, div.rodape ul#rodape-lista a{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+div.rodape div.footer-div a:hover{
+    text-decoration: underline;
+}
+select.idioma{
+    background-color: #0F0F0F;
+    outline: 1px #2D2D2D;
+    border-radius: 5px;
+    line-height: 20px;
+    font-size: 16px;
+    color:#fff;
+    padding: 5px 10px;
+}
+div#div-select{
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

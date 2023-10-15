@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <!-- CSS custom -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/574d869779.js" crossorigin="anonymous"></script>
     <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
     <link rel="shortcut icon" href="./imagens/netflix.png" type="image/x-icon">
 </head>
 <body>
-    <div id="container" >
+    <div id="container" style="text-align:center;">
         <div id="cima">
             <div class="container">
                <nav>
@@ -19,7 +21,10 @@
                         <img src="./imagens/netflix (1).png" alt="Netflix" width="150px">
                    </a>
                    <div id="navbar-direita">
-                        <input type="text" value="Português">
+                        <select class="idioma">
+                            <option>Português</option>
+                            <option>English</option>
+                        </select>
                         <button id="entrar">
                             Entrar
                         </button>                        
@@ -39,7 +44,10 @@
                </div>
                 <div id="forms">
                     <input type="text">
-                    <button>Vamos lá</button>
+                    <button>
+                        Vamos lá
+                        <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -132,12 +140,81 @@
             </p>
             <div id="forms">
                 <input type="text">
-                <button>Vamos lá</button>
+                <button>
+                    Vamos lá
+                    <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+                </button>
             </div>
         </div>
-        <footer class="caixa">
-            rodapé
-        </footer>
+        <div class="caixa rodape">
+            <footer>
+                <div class="footer-div">
+                    Dúvidas? Ligue <a>0800 591 2876</a>
+                </div>
+                <ul id="rodape-lista">
+                    <li><a>
+                        Perguntas frequentes
+                    </a></li>
+                    <li class="items-direita"><a>
+                        Conta
+                    </a></li>
+                    <li class="items-direita"><a>
+                        relações com investidores
+                    </a></li>
+                    <li class="items-direita"><a>
+                        resgatar cartão pré-pago
+                    </a></li>
+                    <li><a>
+                        formas de assistir
+                    </a></li>
+                    <li class="items-direita"><a>
+                        privacidade
+                    </a></li>
+                    <li class="items-direita"><a>
+                        informações corporativas
+                    </a></li>
+                    <li class="items-direita"><a>
+                        teste de velocidade
+                    </a></li>
+                    <li><a>
+                        só na netflix
+                    </a></li>
+                    <li class="items-direita"><a>
+                        central de ajuda
+                    </a></li>
+                    <li class="items-direita"><a>
+                        media center
+                    </a></li>
+                    <li class="items-direita"><a>
+                        carreiras
+                    </a></li>
+                    <li><a>
+                        comprar cartão pré-pago
+                    </a></li>
+                    <li class="items-direita"><a>
+                        termos de uso
+                    </a></li>
+                    <li class="items-direita"><a>
+                        preferências decookies
+                    </a></li>
+                    <li class="items-direita"><a>
+                        entre em contato
+                    </a></li>
+                    <li><a>
+                        avisos legais
+                    </a></li>
+                </ul>
+                <div id="div-select">
+                    <select class="idioma">
+                        <option>Português</option>
+                        <option>English</option>
+                    </select>
+                </div>
+                <div class="footer-div">
+                    Netflix Brasil
+                </div>
+            </footer>
+        </div>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
