@@ -1,14 +1,14 @@
 @font-face {
     font-family: "netflix regular";
-    src: url("/fontes/netflixsans-regular.ttf");
+    src: url("../fontes/netflixsans-regular.ttf");
 }
 @font-face {
     font-family: "netflix black";
-    src: url("/fontes/netflixsans-black.ttf");
+    src: url("../fontes/netflixsans-black.ttf");
 }
 @font-face {
     font-family: "netflix medium";
-    src: url("/fontes/netflixsans-medium.ttf");
+    src: url("../fontes/netflixsans-medium.ttf");
 }
 *{
 	margin: 0;
@@ -24,7 +24,7 @@ body{
     height: 100%;
 }
 #cima{
-    background: #000 url("/imagens/fundo-netflix-escuro.jpg") fixed;
+    background: #000 url("../imagens/fundo-netflix-escuro.jpg") fixed;
     padding-bottom: 150px;
     text-align: center;
 	background-size: cover;
