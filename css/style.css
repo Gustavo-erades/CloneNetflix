@@ -24,7 +24,7 @@ body{
     height: 100%;
 }
 #cima{
-    background: url("../imagens/fundo-netflix.jpg") fixed;
+    background: url("../imagens/fundo-netflix.jpg") center fixed;
     padding-bottom: 150px;
     text-align: center;
 	background-size: cover;
@@ -208,5 +208,33 @@ div#div-select{
     margin-top: 20px;
 }
 div.caixa-perguntas ul#lista li{
-    background-color: #414141;
+    background-color: #2D2D2D;
+    padding: 20px 0;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+div.caixa-perguntas ul#lista li:hover{
+    background-color: #434242;
+    transition: .4s;
+}
+div.caixa-perguntas ul#lista li span{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 20px;
+}
+div.caixa-perguntas ul#lista li span h3{
+    text-align: left;
+}
+div.caixa-perguntas ul#lista li span i{
+    text-align: right;
+    padding-top: 10px;
+    font-size: 30px;
+}
+div.caixa-perguntas ul#lista{
+    list-style: none;
+    margin: 0 11%;
+}
+div#caixa-lista{
+    margin: 25px 0;
 }
