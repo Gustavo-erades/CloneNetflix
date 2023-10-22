@@ -238,3 +238,14 @@ div.caixa-perguntas ul#lista{
 div#caixa-lista{
     margin: 25px 0;
 }
+img#tv,video#video{
+    position: relative;
+}
+img#tv{
+    z-index: 1;
+}
+video#video{
+    top: -360px;
+    left: 80px;
+    width: 450px;
+}
