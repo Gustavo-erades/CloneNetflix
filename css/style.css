@@ -259,10 +259,10 @@ div#div-video2{
     padding-top: 40px;
 }
 div#pipoca{
-    background: radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C);
-    background: -moz-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C),
-                -webkit-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C),
-                -o-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C);
+    background: radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000);
+    background: -moz-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000),
+                -webkit-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000),
+                -o-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000);
     color:#fff;
     /*display: inline-block;*/
     display: grid;
