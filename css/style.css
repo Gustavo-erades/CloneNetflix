@@ -238,14 +238,29 @@ div.caixa-perguntas ul#lista{
 div#caixa-lista{
     margin: 25px 0;
 }
-img#tv,video#video{
-    position: relative;
+video#video{
+    position:absolute;/*
+    right: 240px;*/
+    width: 450px;
+    margin-top: 10px;
+    left: 55%;
 }
 img#tv{
+    position: relative;
     z-index: 1;
 }
-video#video{
-    top: -360px;
-    left: 80px;
-    width: 450px;
+@media (max-width:1199.98px) {
+    video#video{
+        left: 60%;
+    }
+}
+@media (min-width:1700px){
+    video#video{
+        left: 54.6%;
+    }
+}
+@media(min-width:2000px){
+    video#video{
+        left: 52.4%;
+    }
 }
