@@ -266,7 +266,12 @@ img#tv{
         left:54%;
     }
 }
-@media(min-width:2200px) and (max-width:2299px){
+@media(min-width:2200px) and (max-width:2299.98px){
+    video#video{
+        left:53.5%;
+    }
+}
+@media(min-width:2200px) and (max-width:2299.98px){
     video#video{
         left:53.5%;
     }
