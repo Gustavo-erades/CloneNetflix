@@ -240,7 +240,6 @@ div#caixa-lista{
 }
 video#video{
     width: 450px;
-    vertical-align: baseline;
 }
 img#tv{
     position: relative;
@@ -250,4 +249,30 @@ div#div-video{
     position: absolute;
     padding-left: 80px;
     padding-top: 10px;
+}
+video#video2{
+    width: 380px;
+}
+div#div-video2{
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+div#pipoca{
+    background: radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C);
+    background: -moz-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C),
+                -webkit-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C),
+                -o-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C);
+    color:#fff;
+    /*display: inline-block;*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+div#div-pipocaImg{
+    border:1px solid red;
+    margin-left: auto;
+}
+div#div-pipocaTx{
+    border:1px solid red;
+    margin-right:auto ;
 }
