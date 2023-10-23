@@ -239,40 +239,15 @@ div#caixa-lista{
     margin: 25px 0;
 }
 video#video{
-    position:absolute;/*
-    right: 240px;*/
     width: 450px;
-    margin-top: 10px;
-    left: 55%;
+    vertical-align: baseline;
 }
 img#tv{
     position: relative;
     z-index: 1;
 }
-
-@media (max-width:1199.98px) {
-    video#video{
-        left: 60%;
-    }
-}
-@media (min-width:1700.98px){
-    video#video{
-        left: 54.6%;
-    }
-}
-@media(min-width:2000px) and (max-width:2199.98px){
-    video#video{
-        /*left: 52.4%;*/
-        left:54%;
-    }
-}
-@media(min-width:2200px) and (max-width:2299.98px){
-    video#video{
-        left:53.5%;
-    }
-}
-@media(min-width:2200px) and (max-width:2299.98px){
-    video#video{
-        left:53.5%;
-    }
+div#div-video{
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 10px;
 }
