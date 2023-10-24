@@ -258,21 +258,49 @@ div#div-video2{
     padding-left: 110px;
     padding-top: 40px;
 }
+div#caixa-diferente-dentro{
+    background-color: #000;
+}
 div#pipoca{
     background: radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000);
     background: -moz-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000),
                 -webkit-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000),
                 -o-radial-gradient(circle,#88102D 30%,#0F1B4E,#060D2C,#000);
     color:#fff;
-    /*display: inline-block;*/
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 980px;
+    margin: 0 auto;
 }
 div#div-pipocaImg{
-    border:1px solid red;
-    margin-left: auto;
+    display: inline-block;
+    width: 650px;
+    padding: 0;
 }
-div#div-pipocaTx{
-    border:1px solid red;
-    margin-right:auto ;
+div#pipocaTexto{
+    text-align: justify;
+    float: right;
+}
+p#grande{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "netflix medium";
+}
+p#pequeno{
+    font-size: 16px;
+    line-height: 24px;
+}
+div#pipocaTexto a{
+    color: #448AEB;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+div#pipocaTexto a i{
+    color: #448AEB;
+    padding-left: 8px;
+    font-size: 20px;
+}
+div#pipocaTexto a:hover{
+    cursor: pointer;
 }
