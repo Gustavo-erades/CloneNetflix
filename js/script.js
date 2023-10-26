@@ -1,4 +1,5 @@
-const email=document.querySelector("#email");
-if(email.value!="oi"){
-    email.style.color="#ccc";
+// vermelho -> #C11119
+// verde -> #26985E
+function validar(){
+    
 }
