@@ -226,10 +226,10 @@ div.caixa-perguntas ul#lista li span{
 div.caixa-perguntas ul#lista li span h3{
     text-align: left;
 }
-div.caixa-perguntas ul#lista li span i{
-    text-align: right;
+div.caixa-perguntas ul#lista li span svg{
     padding-top: 10px;
     font-size: 30px;
+    justify-self: end;
 }
 div.caixa-perguntas ul#lista{
     list-style: none;
@@ -303,4 +303,42 @@ div#pipocaTexto a i{
 }
 div#pipocaTexto a:hover{
     cursor: pointer;
+}
+.perguntas-div{
+    padding: 0 20px;
+}
+.perguntas-div p{
+    font-size: 24px;
+    margin-top: 25px;
+    text-align:left;
+}
+.perguntas-titulo{
+    margin-bottom: 10px;
+}
+/* efeito na lista de perguntas */
+.perguntas-div{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s ease;
+}
+.perguntas-lista.active .perguntas-div{
+    max-height: 300px;
+    animation: fade .5s ease-in-out;
+    border-top: 2px solid #000;
+} 
+.perguntas-lista.active .perguntas-titulo svg{
+    transform: rotate(45deg);
+}
+.perguntas-titulo svg{
+    transition: transform .1s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }

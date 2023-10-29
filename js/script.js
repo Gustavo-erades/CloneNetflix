@@ -15,7 +15,6 @@ function validar(){
         emailCampo.style.outlineWidth="2px";
     }  
 }
-
 function validar2(){
     const primeiraRegex=/^[A-z0-9]*[@]{1}[A-z0-9]*[[.]{1}[com]{3}$/;
     const segundaRegex=/^[A-z0-9]*[@]{1}[A-z0-9]*[[.]{1}[com]{3}[.]{1}[br]{2}$/;
@@ -31,3 +30,10 @@ function validar2(){
         emailCampo.style.outlineWidth="2px";
     }  
 }
+//perguntas frequentes
+const div=document.querySelectorAll(".perguntas-lista");
+div.forEach(div=>{
+    div.addEventListener("click",()=>{
+        div.classList.toggle("active");
+    });
+})
